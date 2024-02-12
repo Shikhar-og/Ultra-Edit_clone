@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px 60px;
+}
+nav .logo{
+    width: 175px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+}
+nav ul li{
+    display: flex; 
+}
+nav a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 95%;
+    font-weight: 470;
+}
+.text_container{
+    margin: 68px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 80vw;
+}
+.text1{
+    font-size: 45px;
+}
+.text2{
+    margin: 40px;
+    font-size: 26px;
+}
+.download{
+    padding: 12px 20px;
+    min-height: 48px;
+    min-width: 256px;
+    text-align: center;
+    color: white;
+    background-color: #00b6d1;
+    border-width: 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    cursor: pointer;
+}
+.download:hover{
+    background-color: #109bb1;
+}
+.min_container{
+    margin-top: 60px;
+    width: 100%;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.n_logo{
+    height: 72px;
+}
+.min_container a{
+    text-decoration: none;
+    color: black;
+}
+.grid{
+    margin: 5px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+.item{
+    padding: 15px;
+    background-color: rgb(247, 244, 244);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item-lang{
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+.btn{
+    text-align: center;
+}
+.grid button{
+    font-size: 12px;
+    padding: 8px 15px;
+    margin:10px 5px;
+    min-height: 10px;
+    color: #ffffff;
+    text-align: center;
+    border-width: 0px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.blue{
+    background-color: #00b6d1;
+}
+.green{
+    background-color: rgb(38, 216, 38);
+}
+@media screen and (max-width:990px) {
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}
